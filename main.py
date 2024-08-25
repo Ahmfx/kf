@@ -19,9 +19,9 @@ def usernames():
     g = ''.join(choice('t') for i in range(1))
     _ = ''.join("_")
     e = ''.join(choice('g') for i in range(1))
-    u1 = t + e + z + c + z
-    u2 = t + e + z + c + n
-    u3 = t + e + n + k + k + k
+    u1 = g + e + z + c + z
+    u2 = g + e + z + c + n
+    u3 = g + e + n + k + k + k
     s = u1,u2,u3
     return choice(s)
 
